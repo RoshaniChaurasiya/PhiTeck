@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f5f5f5;
+  font-family: "Outfit";
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.section-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* --------------Left Section------------------ */
+.left-side {
+  margin: 20vh 4vh 2vw 8vw;
+}
+.left-side h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 67px;
+}
+.left-side h1 span {
+  color: #fe6060;
+}
+.left-side h5 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  margin-top: 3vh;
+}
+.left-side p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 5vh;
+}
+
+/* ------------------Dropdown---------------------- */
+.dropdown-list {
+  margin: 10px 0;
+}
+.dropbtn {
+  background-color: #fff;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+}
+.year {
+  width: 6vw;
+  border-radius: 10%;
+}
+.month {
+  width: 15vw;
+  border-radius: 10%;
+}
+.day {
+  width: 5vw;
+  border-radius: 10%;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 25.0781px 16px 26px;
+  background-color: #ffffff;
+  width: 27vw;
+}
+.search-container input {
+  padding: 8px;
+  font-size: 17px;
+  border: none;
+  background-color: #f1f1f1;
+}
+.search-container button {
+  padding: 10px;
+  background: #fe6060;
+  border-radius: 8px;
+  border: none;
+}
+
+.last-info {
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+}
+.last-info p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 10px;
+}
+
+/* --------------------Right Section------------------ */
+.right-side {
+  margin: 10vh 9vw 0vw 4vw;
+}
